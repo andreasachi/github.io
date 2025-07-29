@@ -1,11 +1,37 @@
-
-.jumbotron {
-  padding-top: 2rem 1rem;
-  background-color: #535b73;
- 
+:root {
+  --pink-soft: #FFD1DC;
+  --pink-light: #FFE4E1;
+  --pink-dark: #F4C2C2;
 }
 
+/* Background Sections */
+#home, #about, #projects, #contact {
+  background-color: var(--pink-light);
+}
 
-#projects {
-  background-color: #535b73;
+/* Navbar */
+.navbar {
+  background-color: var(--pink-dark) !important;
+}
+
+/* Tombol */
+.btn-github {
+  background-color: var(--pink-dark);
+  border-color: var(--pink-dark);
+}
+
+.btn-github:hover {
+  background-color: #FBAED2;
+  border-color: #FBAED2;
+}
+
+/* Card */
+.card {
+  border-color: var(--pink-soft);
+  box-shadow: 0 4px 8px rgba(255, 182, 193, 0.2);
+}
+
+/* Footer */
+footer {
+  background-color: var(--pink-dark) !important;
 }
